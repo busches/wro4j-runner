@@ -4,14 +4,14 @@
     <parent>
         <groupId>ro.isdc.wro4j</groupId>
         <artifactId>wro4j-parent</artifactId>
-        <version>1.7.5</version>
+        <version>1.7.9</version>
     </parent>
     <artifactId>wro4j-runner</artifactId>
-    <version>1.7.6</version>
+    <version>1.7.9</version>
     <packaging>jar</packaging>
     <name>wro4j runner</name>
     <properties>
-	   <wro4j.version>1.7.7</wro4j.version>
+	   <wro4j.version>1.7.9</wro4j.version>
        <wro4j.runner.mainClass>ro.isdc.wro.runner.Wro4jCommandLineRunner</wro4j.runner.mainClass>
     </properties>
     <dependencies>
@@ -82,6 +82,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator</artifactId>
+            <version>0.19</version>
         </dependency>
     </dependencies>
     <build>
